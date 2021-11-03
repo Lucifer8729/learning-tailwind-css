@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
-  <body class="text-gray-600 font-body bg-gray-100">
-    <div>
-      <div>
+  <body class="text-gray-600 font-body">
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1">
         <nav>
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
@@ -29,7 +29,7 @@
         </nav>
       </div>
 
-      <main class="px-16 py-16">
+      <main class="px-16 py-6 bg-gray-100 md:col-span-2">
         <div class="flex justify-center md:justify-end">
           <a href="#" class="text-primary">Log in</a>
           <a href="#" class="text-primary ml-2">Sign up</a>
@@ -45,7 +45,7 @@
             Lates Recipes
           </h4>
 
-          <div class="mt-8">
+          <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div class="card">
               <img
                 src="img/stew.jpg"
